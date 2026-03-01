@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eco-friendly-agent"
+version = "0.1.0"
+description = "LangChain Eco-Friendly Agent helping to facilitate homes that are better for the environment."
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "langchain>=1.2.10",
+    "langchain-core>=1.2.11",
+    "langchain-classic>=1.0.1",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-huggingface>=1.2.0",
+    "langchain-openai>=1.1.9",
+    "langgraph-supervisor>=0.0.31",
+    "langgraph>=1.0.8",
+    "pydantic>=2.0.0",
+    "print_color",
+    "sqlalchemy",
+    "chromadb",
+    "openai",
+    "pandas",
+    "numpy",
+    "jupyter",
+    "ipykernel",
+    "requests",
+    "python-dateutil",
+    "httpx",
+    "ragas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio",
+]

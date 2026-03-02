@@ -117,4 +117,4 @@ The agent is evaluated on:
 
 ## License
 
-This project is part of the Udacity curriculum.
+This project is adapted from the Udacity curriculum. All licenses should be sought from Udacity.

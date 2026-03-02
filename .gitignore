@@ -11,3 +11,6 @@
 **/sessions
 **/INSTRUCTIONS.md
 **/.DS_Store
+**./db
+**/vectorstore
+**/.db

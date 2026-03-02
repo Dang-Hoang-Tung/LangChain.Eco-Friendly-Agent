@@ -1,0 +1,44 @@
+Home battery storage systems allow you to capture cheap or free electricity — from solar panels or low-rate overnight tariffs — and use it when grid power is expensive or unavailable. Understanding how to size, charge, and dispatch a battery correctly determines whether it pays back its cost within a reasonable timeframe.
+
+How Home Batteries Work:
+- A home battery system consists of lithium-ion cells, a battery management system (BMS), and an inverter/charger
+- The BMS protects cells from overcharging, deep discharge, and overheating; never bypass its limits
+- Most residential systems offer usable capacities of 5–20 kWh; popular units include the Tesla Powerwall (13.5 kWh), Givenergy (8.2 kWh), and SolarEdge Home Battery (10 kWh)
+- Depth of discharge (DoD) is the percentage of capacity the battery can safely use; most lithium systems allow 90–100% DoD
+- Round-trip efficiency is typically 90–95%, meaning you lose 5–10% of energy in the charge and discharge process
+
+Optimal Charging Strategies:
+- Solar charging: configure the battery to charge from solar surplus first before any excess is exported to the grid
+- Off-peak grid charging: on tariffs with a cheap overnight window (e.g., 11 PM–6 AM), schedule the battery to reach 80–100% charge before peak hours begin
+- Avoid charging from the grid during peak hours (typically 4–7 PM); this increases your bill rather than reducing it
+- Set a minimum state of charge (SOC) reserve of 10–20% for power cuts if grid backup is a priority for you
+
+Discharging and Dispatch:
+- Programme the battery to discharge during peak pricing hours to offset the most expensive grid imports
+- If you have time-of-use pricing, set the discharge window to cover the peak period exactly — typically 4 PM to 7 PM
+- Avoid discharging the battery to 0% regularly; keeping cycles between 10% and 90% significantly extends battery life
+- In winter when solar is low, prioritise the battery for evening use rather than running it down in the morning
+
+Battery Lifespan and Degradation:
+- Most lithium home batteries are warrantied for 10 years or 6,000–10,000 cycles at 70–80% retained capacity
+- High temperature accelerates degradation; install the battery in a cool, shaded, well-ventilated location and avoid direct sunlight
+- Avoid frequent full charge to 100% if long-term calendar life matters more than daily capacity; charging to 80–90% as the regular maximum extends life measurably
+- Depth of discharge has less impact on modern lithium batteries than on older lead-acid systems, but avoiding regular 100% to 0% cycles is still best practice
+
+Calculating Return on Investment:
+- Annual savings = (peak rate − off-peak rate) × usable capacity × cycles per year × round-trip efficiency
+- Example: 10 kWh battery, 300 cycles/year, 35p peak vs 7p off-peak, 92% efficiency → 10 × 0.28 × 300 × 0.92 ≈ £775/year
+- Compare this to the installed system cost (typically £5,000–£10,000) to estimate payback period
+- Solar self-consumption uplift (storing midday surplus for evening use) typically adds £200–£400/year to savings on a 4 kW system
+
+Integration with Solar and Smart Home:
+- A solar-plus-storage system should prioritise: (1) direct solar consumption, (2) battery charging from surplus, (3) grid export of remaining surplus
+- Smart inverters can switch this priority order automatically based on electricity prices, weather forecasts, and SOC
+- Pair the battery with a smart home hub so high-consumption appliances run from stored solar rather than the grid in the evening
+- Some systems support vehicle-to-home (V2H) using an EV as an additional battery; this is still emerging technology but available on select EV and charger combinations
+
+Safety and Installation:
+- Home batteries must be installed by a qualified electrician and registered with the Distribution Network Operator (DNO) or local utility
+- Do not install batteries in living spaces, bedrooms, or attached garages without verified fire-rated enclosures
+- Test the battery's backup power function quarterly by simulating a grid outage to confirm it switches to island mode correctly
+- Keep at least 30 cm of clearance around the unit for heat dissipation and maintenance access

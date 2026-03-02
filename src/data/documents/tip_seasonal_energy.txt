@@ -1,0 +1,37 @@
+Energy needs and the best strategies for managing them change significantly across seasons. Adapting your home's energy habits and equipment settings to the time of year can cut consumption by 15–25% compared to a one-size-fits-all approach.
+
+Spring (March–May):
+- Spring is ideal for servicing HVAC before the cooling season: replace filters, clean coils, and test refrigerant levels
+- Use passive ventilation — open windows on opposite sides of the home to create cross-flow cooling on mild days rather than running air conditioning
+- Solar generation begins to recover after winter; gradually move more loads back to midday operation as daylight increases
+- Service your solar panels: clean off winter grime and inspect for damage before peak generation season
+- Spring temperatures are mild enough to air-dry laundry outdoors, eliminating tumble dryer energy entirely on many days
+
+Summer (June–August):
+- Peak solar generation coincides with peak air conditioning demand; schedule EVs, pool pumps, and dishwashers during solar hours to offset cooling costs
+- Ventilate the home in the early morning (before 8 AM) when outdoor air is cool, then close windows and blinds before heat builds
+- Install reflective or blackout blinds on south- and west-facing windows to block solar heat gain; this can reduce cooling load by 20–30%
+- Set the pool pump to run 6–8 hours during daytime solar generation instead of overnight to maximise self-consumption
+- Check that the air conditioning unit's refrigerant charge is correct; an undercharged system uses up to 20% more electricity to achieve the same cooling
+- Avoid using ovens and hobs during the hottest part of the day; switch to microwave, slow cooker, or outdoor barbecue to reduce internal heat gains
+
+Autumn (September–November):
+- Transition the HVAC from cooling to heating mode and verify the heat pump's defrost cycle is working correctly
+- Weatherstrip doors and windows before temperatures drop; cold draughts force the heating system to work harder
+- Solar generation declines sharply from October onwards; start reviewing your electricity tariff and consider switching to a cheap overnight rate for EV and battery charging
+- Programme the thermostat to lower overnight temperatures to 16–17°C (60–62°F) and recover to comfort temperature just before waking
+- Insulate hot water pipes in unheated spaces (garage, loft) to prevent heat loss and reduce water heater run time
+
+Winter (December–February):
+- Heating accounts for over 60% of energy bills in colder climates; every degree of setpoint reduction saves approximately 3%
+- Layer clothing and use blankets to remain comfortable at a lower thermostat setting rather than raising the setpoint
+- Solar generation is at its annual minimum; prioritise cheap overnight grid electricity (if available on your tariff) for EV charging and battery top-up
+- Use electric blankets or heated mattress pads to warm the bed instead of heating the whole bedroom to a higher temperature
+- Ensure loft insulation is at least 270 mm (UK recommendation) and top up if needed; this is typically the highest-return insulation investment
+- Draft-proof letterboxes, keyholes, and cat flaps — these small gaps collectively lose a surprising amount of heat
+
+Year-Round Best Practices:
+- Review your energy tariff every 6 months; the best rate changes seasonally as wholesale prices fluctuate
+- Set a reminder to check solar panel performance data at the start of each new season
+- Adjust EV charging schedules when daylight saving time changes; off-peak windows shift by one hour relative to solar noon
+- Keep a simple energy log (daily kWh and weather) to spot seasonal patterns and measure year-on-year improvement

@@ -1,0 +1,37 @@
+Integrating solar panels and other renewable generation into your home energy system requires understanding how generation patterns interact with consumption, pricing, and grid export rules. Getting this right can dramatically reduce net energy costs and carbon footprint.
+
+Understanding Your Solar Generation Curve:
+- Residential solar panels typically generate power from sunrise to sunset, peaking within 2 hours either side of solar noon
+- Output depends on panel orientation (south-facing is optimal in the northern hemisphere), tilt angle, shading, and weather
+- A typical 4 kW system generates 12–20 kWh per sunny day and 2–6 kWh on overcast days
+- Dust and debris on panels can reduce output by 5–25%; clean them every 3–6 months with water and a soft brush
+
+Matching Consumption to Generation:
+- The highest financial benefit from solar comes from self-consumption — using generated electricity directly rather than exporting it
+- Export rates (feed-in tariffs) are typically 3–5 times lower than import rates, so consuming your own solar is far more valuable than selling it
+- Schedule high-consumption tasks — EV charging, dishwasher, washing machine, water heater boost — between 10 AM and 2 PM on clear days
+- Use a solar monitoring app or smart home integration to see real-time generation and shift loads accordingly
+
+Maximising Self-Consumption:
+- A 7–10 kWh home battery stores midday surplus for use in the evening when solar generation has stopped
+- Without storage, aim to run as many loads as possible simultaneously during peak generation to avoid wasting exported power
+- Immersion heater controllers (solar diverters) automatically send surplus generation to the hot water tank before it reaches the grid
+- EV chargers with solar integration will adjust charge rate to match surplus generation, avoiding grid imports
+
+Grid Interaction and Export Management:
+- Check your Distribution Network Operator (DNO) or utility rules on maximum export capacity; some areas limit this to 3.68 kW per phase
+- A G98 or G99 application (UK) or equivalent interconnection agreement is required before your inverter can export
+- Smart export guarantee (SEG) tariffs in the UK pay for exported electricity; compare rates between suppliers annually
+- Time-of-use import tariffs with a cheap overnight rate (e.g., Octopus Go at 7p/kWh) work well combined with solar: charge a battery cheaply overnight and top it up with solar during the day
+
+Monitoring and Performance Tracking:
+- Log daily generation alongside weather data to build a performance baseline for your system
+- A sudden drop in generation (more than 15% below seasonal average) on a clear day may indicate a panel fault, inverter issue, or shading from new obstructions
+- Compare your annual generation against the installer's estimate (measured in kWh/kWp); typical UK performance is 850–950 kWh per kWp per year
+- Use generation data to calculate payback period: divide total system cost by annual bill savings (self-consumption value + export income)
+
+Solar Irradiance and Forecasting:
+- Solar irradiance (W/m²) is the key predictor of generation; values above 600 W/m² represent strong generation conditions
+- Weather APIs provide hourly irradiance forecasts enabling proactive load scheduling the night before
+- On days forecast to produce less than 3 kWh, plan to shift major loads to off-peak grid hours rather than waiting for solar
+- Seasonal variation is significant: expect 60–70% less daily generation in December compared to June in northern Europe

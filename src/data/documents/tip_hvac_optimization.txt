@@ -1,0 +1,37 @@
+HVAC systems typically account for 40–50% of a home's total energy bill, making them the single best target for energy optimisation. Understanding how to operate heating and cooling equipment efficiently can cut that cost significantly without sacrificing comfort.
+
+Pre-Cooling and Pre-Heating Strategy:
+- Cool your home 1–2 degrees lower than your target temperature before peak pricing hours begin (usually 4–7 PM)
+- Pre-heat in winter before the morning peak (6–9 AM) so the system doesn't run hard during expensive periods
+- Use your thermostat's schedule feature to automate pre-conditioning automatically
+- Each degree you raise the cooling setpoint in summer saves approximately 3% on cooling costs
+
+Thermostat Setpoints by Season:
+- Summer cooling target: 78°F (26°C) when home, 85°F (29°C) when away
+- Winter heating target: 68°F (20°C) when home, 60°F (16°C) when away and at night
+- For every degree you adjust away from these targets you use roughly 3% more energy
+- Smart thermostats that learn your schedule can automate these transitions seamlessly
+
+Filter and Airflow Maintenance:
+- Replace standard 1-inch air filters every 30 days; thicker 4-inch filters last up to 6 months
+- A clogged filter forces the fan to work harder and can increase energy use by 15%
+- Keep supply and return vents clear of furniture, rugs, and curtains
+- Have ductwork inspected every 3–5 years; up to 30% of conditioned air can leak from unsealed ducts
+
+Outdoor Unit Care:
+- Keep at least 2 feet of clearance around the outdoor condenser unit for adequate airflow
+- Rinse condenser coils with a garden hose at the start of each cooling season to remove dirt
+- Shade the outdoor unit from direct afternoon sun using shrubs or a shade screen — this can improve efficiency by 5–10%
+- Never cover the unit with a tarp while it is operating
+
+Heat Pump Optimisation:
+- Heat pumps are 2–4 times more efficient than electric resistance heating; prefer them when outdoor temps are above 40°F (4°C)
+- Switch to emergency heat (resistance strips) only when the outdoor temperature drops below the system's rated balance point
+- Keep the setpoint steady rather than making large changes; heat pumps recover slowly from big temperature swings
+- Pair with a mini-split for zones that have poor ductwork coverage
+
+Zoning and Load Reduction:
+- Close HVAC vents and doors to unused rooms to redirect airflow where it is needed
+- Use ceiling fans in conjunction with air conditioning — fan circulation allows you to raise the AC setpoint by 4°F with the same comfort level
+- Add blackout curtains or reflective window film on south- and west-facing windows to reduce solar heat gain in summer
+- Seal gaps around doors, windows, and electrical outlets with weatherstripping and caulk before relying on HVAC

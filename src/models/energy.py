@@ -2,11 +2,15 @@
 Energy data models for EcoHome Energy Advisor
 """
 from datetime import datetime
+from pathlib import Path
 from typing import Optional
 from sqlalchemy import Column, Integer, Float, DateTime, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
+
+# Default DB lives at src/data/energy_data.db regardless of CWD
+_DEFAULT_DB = str(Path(__file__).resolve().parent.parent / "data" / "energy_data.db")
 
 Base = declarative_base()
 
@@ -41,7 +45,7 @@ class SolarGeneration(Base):
 class DatabaseManager:
     """Database manager for EcoHome energy data"""
     
-    def __init__(self, db_path: str = "data/energy_data.db"):
+    def __init__(self, db_path: str = _DEFAULT_DB):
         self.db_path = db_path
         self.engine = create_engine(f"sqlite:///{db_path}")
         self.SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=self.engine)

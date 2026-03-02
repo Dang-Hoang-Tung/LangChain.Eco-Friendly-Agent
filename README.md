@@ -15,7 +15,7 @@ An AI-powered energy optimization agent that helps customers reduce electricity 
 
 ### 1. Install Dependencies
 
-```bash
+```sh
 pip install -e .
 ```
 
@@ -26,6 +26,30 @@ Create a `.env` file with your API keys:
 ```bash
 OPENAI_API_KEY=<your-key>
 OPENAI_BASE_URL=<optional-url>
+```
+
+### 3. Run The Agent Programme
+
+All scripts should be executed from project root.
+
+1. Create database:
+```sh
+python src/01_db_setup.py
+```
+
+2. Setup RAG:
+```sh
+python src/02_rag_setup.py
+```
+
+3. (Optional) Evaluate system:
+```sh
+python src/03_run_and_evaluate.py
+```
+
+4. Run interactive agent:
+```sh
+python src/main.py
 ```
 
 ## Agent Capabilities

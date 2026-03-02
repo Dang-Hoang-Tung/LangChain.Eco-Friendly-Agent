@@ -2,8 +2,10 @@
 Tools for EcoHome Energy Advisor Agent
 """
 import os
+import sys
 import json
 import random
+from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 from langchain_core.tools import tool
@@ -11,6 +13,11 @@ from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+_SRC_DIR = Path(__file__).resolve().parent
+_DATA_DIR = _SRC_DIR / "data"
+sys.path.insert(0, str(_SRC_DIR))
+
 from models.energy import DatabaseManager
 
 # Initialize database manager
@@ -372,15 +379,16 @@ def search_energy_tips(query: str, max_results: int = 5) -> Dict[str, Any]:
     """
     try:
         # Initialize vector store if it doesn't exist
-        persist_directory = "data/vectorstore"
+        persist_directory = str(_DATA_DIR / "vectorstore")
         if not os.path.exists(persist_directory):
             os.makedirs(persist_directory)
-        
+
         # Load documents if vector store doesn't exist
         if not os.path.exists(os.path.join(persist_directory, "chroma.sqlite3")):
             # Load documents
             documents = []
-            for doc_path in ["data/documents/tip_device_best_practices.txt", "data/documents/tip_energy_savings.txt"]:
+            for doc_path in [str(_DATA_DIR / "documents" / "tip_device_best_practices.txt"),
+                             str(_DATA_DIR / "documents" / "tip_energy_savings.txt")]:
                 if os.path.exists(doc_path):
                     loader = TextLoader(doc_path)
                     docs = loader.load()

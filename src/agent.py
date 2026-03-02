@@ -1,9 +1,14 @@
 import os
+import sys
+from pathlib import Path
 from typing import Any, Optional
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage
 from langchain.agents import create_agent
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from tools import TOOL_KIT
 
 load_dotenv()
